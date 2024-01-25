@@ -1,0 +1,89 @@
+2024-01-25 12:03:54.396311 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #4578 for gravityformszapier. 
+2024-01-25 12:03:54.396655 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#70 - Commercial Summit Ticket Order) for entry #4578. 
+2024-01-25 12:03:54.396678 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#71 - Commercial Summit Ticket Order) for entry #4578. 
+2024-01-25 12:03:54.396704 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Adding feed (#72 - Commercial Summit Ticket Order) for entry #4578 for gravityformszapier to the processing queue. 
+2024-01-25 12:03:55.253726 - DEBUG --> GF_Feed_Processor::task(): Starting to process feed (#72 - Commercial Summit Ticket Order) for entry #4578 for gravityformszapier. Attempt number: 1 
+2024-01-25 12:03:55.254407 - DEBUG --> GF_Zapier::get_body(): Request body cached (1_46_4578_0). 
+2024-01-25 12:03:55.254470 - DEBUG --> Posting to url: https://hooks.zapier.com/hooks/standard/2037309/2faae49c301c4ce7a68bf54cae5ce287/ data: Array
+(
+    [Form ID] => 46
+    [Form Title] => Commercial Summit Ticket Order
+    [Entry ID] => 4578
+    [Entry Date] => 2024-01-25 18:03:52
+    [User IP] => 70.120.137.74
+    [Source Url] => https://insurancesaleslab.com/summit
+    [Created By] => 
+    [Transaction Id] => pi_3OcXHBHgfQ15FdFj1AUg2vMJ
+    [Payment Amount] => 200.00
+    [Payment Date] => 2024-01-25 18:03:54
+    [Payment Status] => Paid
+    [Post Id] => 
+    [User Agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+    [Commercial Insurance Summit Virtual Event Access] => Option 1: Virtual Event Ticket Only: $200|200
+    [Products /] => Array
+        (
+            [0] => Array
+                (
+                    [product_id] => 45
+                    [product_name] => Option 1: Virtual Event Ticket Only: $200
+                    [product_quantity] => 1
+                    [product_price] => 200
+                    [product_price_with_options] => 200
+                    [product_subtotal] => 200
+                    [product_options] => 
+                )
+
+        )
+
+    [Name (Prefix)] => 
+    [Name (First)] => Mike
+    [Name (Middle)] => 
+    [Name (Last)] => C
+    [Name (Suffix)] => 
+    [Name] => Mike C
+    [Email] => mike+dm@insurancesaleslab.com
+    [Mobile Phone] => (503) 897-0157
+    [Credit Card (Card Details)] => XXXXXXXXXXXX4242
+    [Credit Card (Card Type)] => Visa
+    [Billing Address (Street Address)] => 123 Min
+    [Billing Address (Address Line 2)] => 
+    [Billing Address (City)] => Portland
+    [Billing Address (State / Province)] => Oregon
+    [Billing Address (ZIP / Postal Code)] => 97233
+    [Billing Address (Country)] => United States
+    [Billing Address] => 123 Min Portland Oregon 97233 United States
+    [Consent (Consent)] => 1
+    [Consent (Text)] => I agree to the Terms & Privacy Policy
+    [Consent (Description)] => 12
+    [District Manager name] => 
+    [District Manager key] => 
+    [Order Total:] => 200
+    [UTM Source] => 
+    [UTM Campaign] => 
+    [UTM Medium] => 
+    [UTM Term] => 
+    [UTM Content] => 
+)
+ 
+2024-01-25 12:04:00.273192 - ERROR --> The following error occurred: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Resolving timed out after 5000 milliseconds
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+ 
+2024-01-25 12:04:00.273610 - DEBUG --> GF_Feed_Processor::task(): Marking entry #4578 as fulfilled for gravityformszapier 

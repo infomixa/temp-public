@@ -1,0 +1,157 @@
+2024-01-25 11:55:39.284622 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://gravityapi.com/wp-content/plugins/gravitymanager/message.php?of=GravityForms&key=24f3c1462e8504529abba549a917e82a&v=2.8.2&wp=6.4.2&php=8.0.28&mysql=10.11.5&version=2 
+2024-01-25 11:55:39.424328 - DEBUG --> GFCommon::log_remote_response(): code: 200; body: <!--GFM--> 
+2024-01-25 11:55:39.477046 - DEBUG --> Gravity_Api::check_license(): getting site and license info 
+2024-01-25 11:56:26.545938 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` LEFT JOIN `wp_gf_entry_meta` AS `m2` ON (`m2`.`entry_id` = `t1`.`id` AND `m2`.`meta_key` = 'payment_element_intent_id') WHERE (`m2`.`meta_key` = 'payment_element_intent_id' AND `m2`.`meta_value` = 'pi_3OcXA1HgfQ15FdFj1BiLnfLG') ORDER BY `t1`.`id` DESC LIMIT 20 
+2024-01-25 12:03:51.321829 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#46) submission. 
+2024-01-25 12:03:51.324997 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2024-01-25 12:03:51.325052 - DEBUG --> GFFormDisplay::validate(): Starting for form #46. 
+2024-01-25 12:03:51.325076 - DEBUG --> GFFormDisplay::validate(): Executing functions hooked to gform_pre_validation. 
+2024-01-25 12:03:51.325102 - DEBUG --> GFFormDisplay::validate(): Completed gform_pre_validation. 
+2024-01-25 12:03:51.325114 - DEBUG --> GFFormDisplay::validate(): Checking restrictions. 
+2024-01-25 12:03:51.325234 - DEBUG --> GFFormDisplay::validate(): Completed restrictions. Starting field validation. 
+2024-01-25 12:03:51.325648 - DEBUG --> GFFormDisplay::validate_character_encoding(): Starting invalid characters validation for field: Name (1 - name) 
+2024-01-25 12:03:51.327394 - DEBUG --> GFFormDisplay::validate_character_encoding(): gf_entry_meta meta_value charset = utf8mb4 
+2024-01-25 12:03:51.327430 - DEBUG --> GFFormDisplay::validate_character_encoding(): reflecting methods 
+2024-01-25 12:03:51.327532 - DEBUG --> GFFormDisplay::validate_character_encoding(): Completed in 0.001859 seconds. Value is valid ascii 
+2024-01-25 12:03:51.327871 - DEBUG --> GFFormDisplay::validate_character_encoding(): Starting invalid characters validation for field: Billing Address (14 - address) 
+2024-01-25 12:03:51.327903 - DEBUG --> GFFormDisplay::validate_character_encoding(): Completed in 0.000038 seconds. Value is valid ascii 
+2024-01-25 12:03:51.328109 - DEBUG --> GFFormDisplay::validate(): Field validation completed in 0.002844 seconds. 
+2024-01-25 12:03:51.328131 - DEBUG --> GFFormDisplay::validate(): Executing functions hooked to gform_validation. 
+2024-01-25 12:03:51.329193 - DEBUG --> GFFormsModel::create_lead(): Draft entry created for form (#46) in 0.000995 seconds. 
+2024-01-25 12:03:51.330003 - DEBUG --> GFCommon::is_spam_entry(): Executing functions hooked to gform_entry_is_spam. 
+2024-01-25 12:03:51.330054 - DEBUG --> GFCommon::is_spam_entry(): Result from gform_entry_is_spam filter: false 
+2024-01-25 12:03:51.330080 - DEBUG --> GFCommon::is_spam_entry(): Spam checks completed in 0.000106 seconds. Is submission considered spam? No. 
+2024-01-25 12:03:52.674628 - DEBUG --> GFFormDisplay::validate(): Completed gform_validation. 
+2024-01-25 12:03:52.674658 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2024-01-25 12:03:52.674742 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2024-01-25 12:03:52.674762 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_pre_submission. 
+2024-01-25 12:03:52.674902 - DEBUG --> GFFormDisplay::process_form(): Completed gform_pre_submission. 
+2024-01-25 12:03:52.674972 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2024-01-25 12:03:52.681153 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 4578. 
+2024-01-25 12:03:52.682022 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2024-01-25 12:03:52.682207 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Commercial Insurance Summit Virtual Event Access(#45 - product). 
+2024-01-25 12:03:52.682265 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#1.2 - name). 
+2024-01-25 12:03:52.682296 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#1.3 - name). 
+2024-01-25 12:03:52.682320 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#1.4 - name). 
+2024-01-25 12:03:52.682343 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#1.6 - name). 
+2024-01-25 12:03:52.682368 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#1.8 - name). 
+2024-01-25 12:03:52.682403 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#3 - email). 
+2024-01-25 12:03:52.682444 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Mobile Phone(#4 - phone). 
+2024-01-25 12:03:52.682523 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Credit Card(#13.1 - stripe_creditcard). 
+2024-01-25 12:03:52.682563 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Credit Card(#13.4 - stripe_creditcard). 
+2024-01-25 12:03:52.682596 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Billing Address(#14.1 - address). 
+2024-01-25 12:03:52.682621 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Billing Address(#14.2 - address). 
+2024-01-25 12:03:52.682651 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Billing Address(#14.3 - address). 
+2024-01-25 12:03:52.682676 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Billing Address(#14.4 - address). 
+2024-01-25 12:03:52.682698 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Billing Address(#14.5 - address). 
+2024-01-25 12:03:52.682718 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Billing Address(#14.6 - address). 
+2024-01-25 12:03:52.682755 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Consent(#28.1 - consent). 
+2024-01-25 12:03:52.682779 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Consent(#28.2 - consent). 
+2024-01-25 12:03:52.682800 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Consent(#28.3 - consent). 
+2024-01-25 12:03:52.682832 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: District Manager name(#36 - text). 
+2024-01-25 12:03:52.682862 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: District Manager key(#37 - text). 
+2024-01-25 12:03:52.682894 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: UTM Source(#46 - hidden). 
+2024-01-25 12:03:52.682921 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: UTM Campaign(#47 - hidden). 
+2024-01-25 12:03:52.682949 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: UTM Medium(#48 - hidden). 
+2024-01-25 12:03:52.682980 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: UTM Term(#50 - hidden). 
+2024-01-25 12:03:52.683007 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: UTM Content(#49 - hidden). 
+2024-01-25 12:03:52.684801 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Order Total:(#11 - total). 
+2024-01-25 12:03:52.685458 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2024-01-25 12:03:52.685543 - DEBUG --> GFFormsModel::save_entry(): Saving entry completed in 0.010533 seconds. 
+2024-01-25 12:03:52.685573 - DEBUG --> GFFormsModel::set_entry_meta(): Saving meta for entry (#4578) completed in 0.000006 seconds. 
+2024-01-25 12:03:52.685599 - DEBUG --> GFFormDisplay::handle_submission(): Executing functions hooked to gform_entry_created. 
+2024-01-25 12:03:52.686475 - DEBUG --> GFFormDisplay::handle_submission(): Completed gform_entry_created. 
+2024-01-25 12:03:52.686503 - DEBUG --> GFFormDisplay::handle_submission(): Executing functions hooked to gform_entry_post_save. 
+2024-01-25 12:03:54.388207 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for complete_payment event for entry #4578. 
+2024-01-25 12:03:54.388253 - DEBUG --> GFAPI::send_notifications(): Aborting. No notifications to process for complete_payment event for entry #4578. 
+2024-01-25 12:03:54.396734 - DEBUG --> GFFormDisplay::handle_submission(): Completed gform_entry_post_save. 
+2024-01-25 12:03:54.397207 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2024-01-25 12:03:54.397458 - DEBUG --> GF_Background_Process::schedule_event(): Scheduling cron event for gf_feed_processor. 
+2024-01-25 12:03:55.249172 - DEBUG --> GF_Background_Process::maybe_handle(): Running for gf_feed_processor. 
+2024-01-25 12:03:55.250709 - DEBUG --> GF_Background_Process::handle(): Processing batch wp_gf_feed_processor_batch_blog_id_1_7560285e0a24fe61f685ce12184; Tasks: 1. 
+2024-01-25 12:03:55.250746 - DEBUG --> GF_Background_Process::handle(): Processing task 1. 
+2024-01-25 12:03:55.252518 - DEBUG --> GF_Background_Process::update(): Updating batch wp_gf_feed_processor_batch_blog_id_1_7560285e0a24fe61f685ce12184. Tasks remaining: 1. 
+2024-01-25 12:03:55.399818 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: cURL error 28: Operation timed out after 1000 milliseconds with 0 bytes received 
+2024-01-25 12:03:55.399912 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2024-01-25 12:03:55.400002 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2024-01-25 12:03:55.400029 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #4578. 
+2024-01-25 12:03:55.400085 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #4578: Array
+(
+    [0] => 62a5b690f1058
+    [1] => 62acc156842c5
+    [2] => 65a6cc07b46b5
+)
+
+(only active/applicable notifications are sent) 
+2024-01-25 12:03:55.400104 - DEBUG --> GFCommon::send_notifications(): Notification is inactive, not processing notification (#62a5b690f1058 - Admin Notification) for entry #4578. 
+2024-01-25 12:03:55.400124 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#62acc156842c5 - Customer Notification). 
+2024-01-25 12:03:55.400655 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2024-01-25 12:03:55.400684 - DEBUG --> Array
+(
+    [to] => mike+dm@insurancesaleslab.com
+    [subject] => Mike - ACTION REQUIRED - Your Commercial Insurance Summit Order.
+    [message] => <html>
+	<head>
+		<title>Mike - ACTION REQUIRED - Your Commercial Insurance Summit Order.</title>
+	</head>
+	<body>
+		Mike,<br />
+<br />
+Thank you and congratulations!<br />
+<br />
+Your order is complete for the Commercial Insurance Summit 2024.<br />
+<br />
+<span style="color: #ff0000;"><strong>IMPORTANT NEXT STEP</strong></span><br />
+<br />
+Keep an eye out for a separate email with the link to the Insurance Sales Lab portal, which you’ll use to access the Commercial Summit.<br />
+<br />
+Below is an example of what the email may look like. Remember to check your spam folder, just in case the email ends up there.<br />
+<br />
+<img class="alignnone wp-image-3843" src="https://insurancesaleslab.com/wp-content/uploads/2024/01/ISL-Welcome-Email-600x256.png" alt="" width="600" height="256" /><br />
+<br />
+Please reply back to this email if you have not received the link or have not been able to access the portal.<br />
+<br />
+We’re excited to have you join us for this event!<br />
+<br />
+-<br />
+Insurance Sales Lab
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Insurance Sales Lab" <web@insurancesaleslab.com>
+            [Reply-To] => Reply-To: info@insurancesaleslab.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2024-01-25 12:03:55.686305 - DEBUG --> GF_Query::query(): sql => SELECT SQL_CALC_FOUND_ROWS DISTINCT `t1`.`id` FROM `wp_gf_entry` AS `t1` LEFT JOIN `wp_gf_entry_meta` AS `m2` ON (`m2`.`entry_id` = `t1`.`id` AND `m2`.`meta_key` = 'payment_element_intent_id') WHERE (`m2`.`meta_key` = 'payment_element_intent_id' AND `m2`.`meta_value` = 'pi_3OcXHBHgfQ15FdFj1AUg2vMJ') ORDER BY `t1`.`id` DESC LIMIT 20 
+2024-01-25 12:04:00.279759 - DEBUG --> GF_Background_Process::handle(): Removing task 1 from batch. 
+2024-01-25 12:04:00.279813 - DEBUG --> GF_Background_Process::delete(): Deleting batch wp_gf_feed_processor_batch_blog_id_1_7560285e0a24fe61f685ce12184. 
+2024-01-25 12:04:00.280419 - DEBUG --> GF_Background_Process::handle(): Batch completed for gf_feed_processor. 
+2024-01-25 12:04:00.280862 - DEBUG --> GF_Background_Process::clear_scheduled_event(): Clearing cron event for gf_feed_processor. 
+2024-01-25 12:04:00.449326 - DEBUG --> GFCommon::send_email(): Result from wp_mail():  
+2024-01-25 12:04:00.449408 - ERROR --> GFCommon::send_email(): WordPress was unable to send the notification email (#62acc156842c5 - Customer Notification) for entry #4578 to the sending server. 
+2024-01-25 12:04:00.449728 - DEBUG --> GFCommon::send_notifications(): Notification is inactive, not processing notification (#65a6cc07b46b5 - Customer Notification - EBS) for entry #4578. 
+2024-01-25 12:04:00.449800 - DEBUG --> GFCommon::send_notifications(): Sending notifications for entry (#4578) completed in 5.049673 seconds. 
+2024-01-25 12:04:00.449870 - DEBUG --> GFFormDisplay::handle_confirmation(): Preparing confirmation (#62a5b690f11ea - Default Confirmation). 
+2024-01-25 12:04:00.450040 - DEBUG --> GFFormDisplay::handle_confirmation(): Executing functions hooked to gform_confirmation. 
+2024-01-25 12:04:00.450592 - DEBUG --> GFFormDisplay::handle_confirmation(): Completed gform_confirmation. 
+2024-01-25 12:04:00.450675 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation to be used => <script type="text/javascript">
+/* <![CDATA[ */
+ function gformRedirect(){document.location.href="https:\/\/insurancesaleslab.com\/commercial-summit-confirmation?afname=Mike&eid=EE6A2XxlECx2JgizEI9tc3YXB6ZPrwMkfzhPWYlb%2FedKyUEt41MK8VjQ6xDHr75wrHiUxBSmR87EuUGfkkiY1g2cojINXzgkvPAx0DadIVRqfWUN";} 
+/* ]]> */
+</script>
+ 
+2024-01-25 12:04:00.450702 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2024-01-25 12:04:00.450887 - DEBUG --> GFFormDisplay::process_form(): Completed gform_after_submission. 
+2024-01-25 12:04:00.450918 - DEBUG --> GFFormDisplay::process_form(): Processing completed in 9.129393 seconds. 
+2024-01-25 12:04:00.455265 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #46. entry #4578. 
+2024-01-25 12:04:00.458893 - DEBUG --> Gravity_Forms\Gravity_Forms\Duplicate_Submissions\GF_Duplicate_Submissions_Handler::is_valid_submission(): form #46. entry #4578. 
+2024-01-25 12:04:00.461796 - DEBUG --> GFFormDisplay::get_form(): Preparing form (#46) confirmation completed in 0.003173 seconds. 
